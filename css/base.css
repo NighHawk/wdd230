@@ -15,7 +15,7 @@ header, main, footer {
 }
 
 header {
-    margin: 1rem;
+    margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
     background-color: blue;
@@ -26,5 +26,5 @@ header {
 
 header img {
     width: 100;
-    height: ;
+    height: 200;
 }
