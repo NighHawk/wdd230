@@ -38,5 +38,5 @@ footer {
     background-color: blue;
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: center;
+    text-align: center;
 }
