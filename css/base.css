@@ -28,3 +28,8 @@ header img {
     width: 100;
     height: auto;
 }
+
+ul {
+  font-size: 16px;
+  font-style: normal;  
+}
