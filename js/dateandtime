@@ -1,2 +1,6 @@
-const d = new Date("July 21, 1983 01:15:00");
-let day = d.getDate();
+import java.time.LocalDateTime; // import the LocalDateTime class
+
+public class Main {
+  public static void main(String[] args) {
+    LocalDateTime myObj = LocalDateTime.now();
+    System.out.println(myObj);
