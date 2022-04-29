@@ -1,1 +1,2 @@
-time = document.lastModified;
+const d = new Date("July 21, 1983 01:15:00");
+let day = d.getDate();
