@@ -7,6 +7,7 @@
 body {
     font-size: 16px;
     font-style: normal;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header, main, footer {
@@ -22,6 +23,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header img {
@@ -31,7 +33,8 @@ header img {
 
 ul {
   font-size: 16px;
-  font-style: normal;  
+  font-style: normal; 
+  font-family: 'Roboto Mono', monospace; 
 }
 
 footer {
@@ -39,4 +42,5 @@ footer {
     display: grid;
     grid-template-columns: 200px 1fr;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
