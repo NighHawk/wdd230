@@ -1,5 +1,6 @@
 body {
-    font-family: 'Karla', sans-serif; 
+    font-family: 'Oxygen', sans-serif; 
+    font-weight: bold;
     max-width: 320px;
     margin: 15px auto;
     
@@ -11,24 +12,27 @@ grid-template-columns: 1fr;}
 
 header, footer {
     max-width: 320px;
-    background-color: midnightblue;
-    color: white;
+    font-weight: bold;
+    background-color: orange;
+    color: midnightblue;
     padding: 5px;
     text-align: center;
 }
 
 main section {
     max-width: 320px;
-    background-color: lightgray;
+    background-color: crimson;
     border-radius: 15px 15px 0px 0px;
     margin-top: 15px;
+    color: black;
+    font-weight: bold;
     
     
     
 }
 
 main section h3 {
-    background-color: darkslateblue;
+    background-color: midnightblue;
     color: white;
     border-radius: 15px 15px 0px 0px;
 }
