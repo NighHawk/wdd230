@@ -1,49 +1,68 @@
 body {
-    font-family: 'Oxygen', sans-serif; 
-    font-weight: bold;
-    max-width: 320px;
-    margin: 15px auto;
-    
+    max-width: 960px;
+    margin: 0 auto;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
-main {
-margin: 0 auto;
-display: grid;
-grid-template-columns: 1fr;}
 
-header, footer {
-    max-width: 320px;
-    font-weight: bold;
-    background-color: orange;
-    color: midnightblue;
-    padding: 5px;
+main {
+    padding: 1em;
+}
+
+p {text-indent: 10px;}
+
+nav {
+    background-color: midnightblue;
     text-align: center;
 }
 
-main section {
-    max-width: 320px;
-    background-color: crimson;
-    border-radius: 15px 15px 0px 0px;
-    margin-top: 15px;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav a:hover {
+    background-color: lightgray;
     color: black;
     font-weight: bold;
-    
-    
-    
 }
 
-main section h3 {
-    background-color: midnightblue;
+#midnight {background-color: midnightblue;
+color: midnightblue;}
+
+#white {border-style: solid;
     color: white;
-    border-radius: 15px 15px 0px 0px;
+    border-color: black;
+    border-width: 2px;
 }
+#black {background-color: black;
+color: black;}
+#gray {background-color: lightgray;
+color: lightgray;}
 
-h3, p, link, img, p, h4 {
-    padding: 10px;
+h1 {font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-bottom: 30px;
     
-}
+    }
 
-p {text-indent: 25px;}
-
-h3 {margin-block-start: 0em;}
-
-footer {margin-top: 15px;}
+    footer {
+        margin: 0 auto;
+        background-color: midnightblue;
+        color: White;
+        text-align: center;
+        padding: .75rem;
+        }
