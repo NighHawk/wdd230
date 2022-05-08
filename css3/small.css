@@ -13,7 +13,7 @@ main {
 p {text-indent: 10px;}
 
 nav {
-    background-color: midnightblue;
+    background-color: crimson;
     text-align: center;
 }
 
@@ -39,8 +39,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-#midnight {background-color: midnightblue;
-color: midnightblue;}
+#midnight {background-color: crimson;
+color: crimson;}
 
 #white {border-style: solid;
     color: white;
@@ -50,9 +50,9 @@ color: midnightblue;}
 #black {background-color: black;
 color: black;}
 #gray {background-color: lightgray;
-color: lightgray;}
+color: gray;}
 
-h1 {font-family: 'Lobster', cursive;
+h1 {font-family: 'Hind', sans-serif;
     text-align: center;
     padding-bottom: 30px;
     
@@ -60,7 +60,7 @@ h1 {font-family: 'Lobster', cursive;
 
     footer {
         margin: 0 auto;
-        background-color: midnightblue;
+        background-color: crimson;
         color: White;
         text-align: center;
         padding: .75rem;
