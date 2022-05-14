@@ -1,4 +1,4 @@
-/*code for getting current date, in format Wednesday, May 11, 2022*/
+/*code for getting current date*/
 let now = new Date();
 let fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
