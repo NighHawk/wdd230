@@ -14,7 +14,7 @@ h1 {
     font-size: 1.5rem;
 }
 header {
-    background-color: crimson;
+    background-color: orangered;
     color: white;
     
 }
@@ -26,7 +26,7 @@ header {
     margin: 10px;
     position: relative;
     padding: 10px;
-    border-bottom: 10px solid crimson;
+    border-bottom: 10px solid orangered;
 }
 
 .classInvite {
@@ -146,7 +146,7 @@ main div {
     text-shadow: 5px 5px 5px gray
 }
 .actionCall {
-    background-color: crimson;
+    background-color: orangered;
     color: white;
     position: absolute;
     bottom: 20px;
@@ -184,7 +184,7 @@ footer div img {
     padding: 20px;
 }
 footer {
-    background-color: crimson;
+    background-color: orangered;
     color: white;
     margin-top: 10px;
 }
