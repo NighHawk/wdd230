@@ -1,7 +1,7 @@
 body {
     max-width: 500px;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
 
 }
@@ -14,7 +14,7 @@ h1 {
     font-size: 1.5rem;
 }
 header {
-    background-color: midnightblue;
+    background-color: crimson;
     color: white;
     
 }
@@ -26,7 +26,7 @@ header {
     margin: 10px;
     position: relative;
     padding: 10px;
-    border-bottom: 10px solid midnightblue;
+    border-bottom: 10px solid crimson;
 }
 
 .classInvite {
@@ -146,7 +146,7 @@ main div {
     text-shadow: 5px 5px 5px gray
 }
 .actionCall {
-    background-color: midnightblue;
+    background-color: crimson;
     color: white;
     position: absolute;
     bottom: 20px;
@@ -184,7 +184,7 @@ footer div img {
     padding: 20px;
 }
 footer {
-    background-color: midnightblue;
+    background-color: crimson;
     color: white;
     margin-top: 10px;
 }
