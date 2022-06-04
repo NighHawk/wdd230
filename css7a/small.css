@@ -220,3 +220,26 @@ footer div:nth-child(2) {
     box-shadow: 5px 5px 5px darkgray;
 }
 
+/*discovery page*/
+
+.dev {
+    display: none;
+}
+
+
+
+.museum, .biking, .history, .artGallery, .hiking {
+    display: inline-block;
+    margin: 5px;
+    height: auto;
+} 
+
+.museum img, .biking img, .history img, .artGallery img, .hiking img {
+    width: 100%
+}
+
+.preFooter {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
