@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pullman Washington Chamber of Commerce</title>
     <meta name="description" content="Homepage for Pullman Ohio Chamber of Commerce">
-    <link href="css4/normalize.css" rel="stylesheet">
-    <link href="css4/small.css" rel="stylesheet">
-    <link href="css4/medium.css" rel="stylesheet">
-    <link href="css4/large.css" rel="stylesheet">
+    <link href="css6/normalize.css" rel="stylesheet">
+    <link href="css6/small.css" rel="stylesheet">
+    <link href="css6/medium.css" rel="stylesheet">
+    <link href="css6/large.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Oxygen:wght@300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
@@ -51,7 +51,11 @@
 
     <main>
         <div class="hero">
-            <img src="images5/Optimized-City of Pullman.jpg" alt="City Of Pullman">
+            <picture>
+                <source srcset="images/wdd230Medium.jpg" media="(min-width: 36rem) and (max-width: 64rem)">
+                <source srcset="images/wdd230Large.jpg" media="(min-width: 64rem)">
+                <img src="images/wdd230Small.jpg" alt="main image">
+            </picture>
             <p class="welcome">Welcome to Pullman, Washington. Home to the Washington State University Cougars.</p>
             <p class="actionCall">Join the Chamber</p>
         </div>
@@ -127,7 +131,8 @@
         </div>
     </footer>
 
-    <script src="js4/script.js"></script>
+    <script src="js6/dateandtime.js"></script>
+    <script src="js6/windchill.js"></script>
 </body>
 
 </html>
