@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pullman Washington Chamber of Commerce</title>
+    <meta name="description" content="Homepage for Pullman Ohio Chamber of Commerce">
+    <link href="css8a/normalize.css" rel="stylesheet">
+    <link href="css8a/small.css" rel="stylesheet">
+    <link href="css8a/medium.css" rel="stylesheet">
+    <link href="css8a/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Oxygen:wght@300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="headerWrapper">
+            <img class="headerLogo" src="images6/Optimized-Pullman-Chamber-of-Commerce-Logo.webp" alt="Pullman Chamber of Commerce Logo">
+            <h1>Pullman Washington<br>
+            Chamber of Commerce</h1>
+                
+                <nav id="largeView">
+                    <ul>
+                        <li><a href="#">Live</a></li>
+                        <li><a href="#">Visit</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            <img class="social" src="images4/Optimized-facebook.jpg" alt="Facebook icon">
+            <img class="social" src="images4/Optimized-youtube.jpg" alt="Youtube icon">
+            <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+            <nav class="smallView">
+                <ul class="navigation">
+                    <li><a href="#">Live</a></li>
+                    <li><a href="#">Visit</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        
+        <div id="date"></div>
+
+    </header>
+
+    <main>
+        <main class="joinPage">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Basic Information</legend> 
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Title <input type="text" name="title" pattern="[A-Za-z-\s]{7}"></label>
+                <label class="top">email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>  
+                <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Business Name <input type="text" name="busName" required></label>  
+                </fieldset>
+    
+                <fieldset class="memLvl">
+                    <legend>Membership Level</legend>
+                   
+                    <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership
+                    <p>As a non-profit organization, you will receive all of the same benefits as others free.<br>Cost: $0.<br><br></p></label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership
+                <p>As a Bronze Member, you will receive a monthly newsletter, and one free training a month.<br>Cost: $15/yr. <br><br></p></label> 
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership
+                <p>As a Silver Member, you will receive the Bronze Membership perks, plus an aditional monthly training and free advertizing on our homepage.<br>Cost: $25/yr. <br><br></p></label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership
+                <p>As a Gold Member, you will receive all of the perks of a Silver Member, pluse unlimited access to monthyly trainings and rountable discussions sponsored by our chamber leaders.<br>Cost: $15/yr. <br><br></p></label>
+                
+                
+                </fieldset>
+                <fieldset>
+                    <legend>Your Business</legend>
+                    <label class="textArea">
+                        <textarea id="busDesc" name="busDesc" rows="4" cols="50" maxlength="200" placeholder="Please provide a short description of your business here."></textarea>
+                    </label>
+                </fieldset>
+                <input type="hidden" id="visitTime" name="visitTime" value="">
+    
+                <input type="submit" value="Join the Chamber" class="submitBtn">    
+            </form>
+
+    </main>
+    <footer>
+        <div>
+            <img src="images6/Optimized-Pullman-Chamber-of-Commerce-Logo.webp" alt="Pullman Chamber of Commerce Logo">
+            <p>
+                <strong>Pullman Chamber of Commerce</strong> <br>
+                415 N Grand Ave Pullman, WA 99163<br>
+            </p>
+            <p>
+                chamber@pullmanchamber.com<br>
+                509-334-3565<br>
+                <span><img src="images4/Optimized-google maps.png" alt="Google Maps Logo"></span>
+                <a
+                    href="https://www.google.com/maps/dir//415+N+Grand+Ave,+Pullman,+WA+99163/@46.7327044,-117.181948,17z/data=!4m13!1m4!3m3!1s0x549f87207b19df0d:0xe69d7506f10f0262!2s415+N+Grand+Ave,+Pullman,+WA+99163!3b1!4m7!1m0!1m5!1m1!1s0x549f87207b19df0d:0xe69d7506f10f0262!2m2!1d-117.1797593!2d46.7327044">
+                    Location Map</a>
+            </p>
+        </div>
+        <div>
+            &copy; <span id="copyright"></span> ..:|:.. Pullman Chamber of Commerce .:|:. Tim Smith ..:|:.. WDD 230
+            Project .:|:. <span id="lastmodified"></span>
+        </div>
+    </footer>
+
+    <script src="js6/dateandtime.js"></script>
+    <script src="js7a/lazyload.js"></script>
+</body>
+
+</html>
