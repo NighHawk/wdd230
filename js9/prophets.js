@@ -39,3 +39,7 @@ function displayProphets(prophet) {
     //add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
 }
+
+//Notes
+
+// Code was taken from this weeks assignment as given to us
