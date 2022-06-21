@@ -1,4 +1,4 @@
-const requestInfo = "";
+const requestInfo = "9ajson/data.json";
 const cards = document.querySelector('.cards');
 
 fetch(requestInfo)
