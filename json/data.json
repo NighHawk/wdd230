@@ -1,4 +1,5 @@
-[
+{
+"company": [
     {
         "name": "Washington State University",
         "address": "Pullman, Washington",
@@ -69,6 +70,6 @@
         "president": "Megan",
         "phone number": "509-338-3227",
         "website": "https://www.pullman-wa.gov/government/departments/parks__facilities___recreation",
-        "image": "images9a/Optimized-parksrec.jpg"
+        "image": "images9a/Optimized-parkrec.jpg"
     }
-]
+]}

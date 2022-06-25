@@ -8,11 +8,11 @@ fetch(requestInfo)
     .then(function (jsonObject) {
         console.table(jsonObject);
         console.log(jsonObject);
-        const companies = jsonObject['companies'];
-        companies.forEach(displayCompanies);
+        const company = jsonObject['company'];
+        company.forEach(displayCompany);
     })
 
-function displayCompanies (company){
+function displayCompany (company){
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
@@ -25,7 +25,7 @@ function displayCompanies (company){
     p2.textContent = `${company.phone}`;
     p3.textContent = `${company.website}`;
 
-    logo.setAttribute('src', company.imageName);
+    logo.setAttribute('src', company.image);
     logo.setAttribute('alt', `Logo for ${company.name}`);
     logo.setAttribute('loading', 'lazy');
 
@@ -41,16 +41,16 @@ function displayCompanies (company){
 //to get buttons working//
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector(".cards");
+const display = document.querySelector("div.cards");
 
 gridbutton.addEventListener("click", () => {
-    display.classList.add("cards");
+    display.classList.add("grid");
     display.classList.remove("list");
 });
 
 listbutton.addEventListener("click", () => {
     display.classList.add("list");
-    display.classList.remove("cards");
+    display.classList.remove("grid");
 })
 
 //References//
