@@ -50,66 +50,45 @@
         <div id="date"></div>
 
     </header>
-
-    <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images6/wdd230Medium1.jpg" media="(min-width: 36rem) and (max-width: 64rem)">
-                <source srcset="images6/wdd230Large1.jpg" media="(min-width: 64rem)">
-                <img src="images6/wdd230Small1.jpg" alt="main image">
-            </picture>
-            <p class="welcome">Welcome to Pullman, Washington. Home to the Washington State University Cougars.</p>
-            <p class="actionCall">Join the Chamber</p>
-        </div>
-        <div class="event">
-            <h2>Lentil Festival 2022</h2>
-            <p>Come Join us for a day of fun while we celebrate the harvest season <br>
-            When: Auguest 19-20, 2022 </p>
-        </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <img id="weatherIcon" src="images5/Optimized-weather icon.png" alt="weather icon">
-            <h3><span id="temp"></span> &#x00b0; F</h3>
-            <h3 id="condition">Sunny</h3>
-            <hr>
-            <p>Wind Speed: <span id="windSpeed"></span> mph <br>
-            Wind Chill: <span id="windChill"></span> &#x00b0 F</p>
-        </div>
-        <div class="news">
-            <h2>Local News</h2>
-            <p>Congrats to our 2022 Washington State University Cougar Graduates!</p>
-        </div>
-        <div class="spotlight">
-            <div class="spotlight1">
-                <h2>Palouse Discovery Science Center</h2>
-                <img src="images5/Optimized-Palouse Discovery Science Center.jpg" alt = "Palouse Discovery Science Center">
-                <p class="quote">"An Active Brain is a Healthy Brain"</p>
-                <hr>
-                <p>509-332-6869<br>
-                 Website</p>
-            </div>
-            <div class="spotlight2">
-                <h2>Pullman Parks and Recreation</h2>
-                <img src="images5/Optimized-Pullman Parks and Recreation.gif" alt = "Pullman Parks and Recreation">
-                <p>A place for all to play and learn</p>
-                <hr>
-                <p>509-338-3227<br>
-                Website</p>
-            </div>
-            <div class="spotlight3">
-                <h2>Pullman Aquatic Center</h2>
-                <img src="images5/Optimized-Aquatic Center.jpg" alt = "Pullman Aquatic Center">
-                <p>A family friendly place to be stay active and cool down</p>
-                <hr>
-                <p>509-338-3290<br>
-                Website</p>
-            </div>
-        </div>
-        <div class="join">
-            <h2>Join Us!</h2>
-            <p>"Come discover and join the chamber of commerce to see how it will benefit you and your organization!"</p>
+    <main class="contactMain">
+        <div class="contactUs">
+            <h2>Contact us!</h2>
+            <h3>Address</h3>
+            <p>Pullman Chamber of Commerce<br>
+            415 N Grand Ave<br>
+            Pullman, WA 99163</p>
+            <h3>Phone</h3>
+            <p>509-334-3565</p>
+            <h3>Email</h3>
+            <p>chamber@pullmanchamber.com</p>
+        </div> 
+        <div class="pointsOfContact">
+            <h2>Points of Contact</h2>
+            <p>Marie Dymkoski<br>
+            Executive Director<br>
+            marie@pullmanchamber.com</p>
+            <p>Kimberly Marshall<br>
+            Office Manager<br>
+            chamber@pullmanchamber.com</p>
         </div>
 
+        <div class="contactForm">
+        <form method="get" action="thankyou.html">
+        <fieldset>
+            <h2>Contact Form</h2> 
+        <label class="top">First Name* <input type="text" name="fname" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" required></label>    
+        <label class="top">email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>  
+        <label class="textArea">Question*
+            <textarea id="busDesc" name="busDesc" rows="4" cols="50" maxlength="200" placeholder="Type question here."></textarea>
+            </label>
+      
+        </fieldset>
+
+        <input type="hidden" id="visitTime" name="visitTime" value="">
+        <input type="submit" value="Get Answers" class="submitBtn">
+        </form>
+    </div>
     </main>
     <footer>
         <div>
