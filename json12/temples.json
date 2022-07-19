@@ -1,0 +1,36 @@
+{
+    "templeDir": [
+        {
+            "name": "Washington State University",
+            "address": "Pullman, Washington",
+            "president": "Kurt Schulz",
+            "phone number": "509-335-3564",
+            "website": "https://wsu.edu/",
+            "image": "images9a/Optimized-wsu.jpg"
+        },
+        {
+            "name": "Schweitzer Engineering Laboratories",
+            "address": "One Schweitzer Drive",
+            "president": "Dr. Ed Schweitzer",
+            "phone number": "509-332-1890",
+            "website": "https://selinc.com/",
+            "image": "images9a/Optimized-sel.jpg"
+        },
+        {
+            "name": "Neill's Flowers & Gifts",
+            "address": "234 E Main St",
+            "president": "The Neill Family",
+            "phone number": "509-334-3545",
+            "website": "https://www.neillsflowers.com/",
+            "image": "images9a/Optimized-Neills.jpg"
+        },
+        {
+            "name": "Ferdinands Ice Cream Shoppe",
+            "address": "2035 Ferdinands Ln",
+            "president": "Washington State University",
+            "phone number": "509-335-2141",
+            "website": "https://creamery.wsu.edu/",
+            "image": "images9a/Optimized-ferdinands.jpg"
+        }
+        
+    ]}
