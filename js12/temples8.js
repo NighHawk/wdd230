@@ -7,7 +7,7 @@ fetch(requestInfo)
   })
   .then(function (jsonObject) {
     //console.table(jsonObject);
-    const temples = jsonObject["temples"];
+    const temples = jsonObject['temples'];
     console.table(temples);
     temples.forEach(displayTemples);
     pullLocal();
