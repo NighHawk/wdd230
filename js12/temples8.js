@@ -1,4 +1,4 @@
-const requestInfo = "json12/temples.json";
+const requestInfo = "json/temples7.json";
 const cards = document.querySelector(".cards");
 
 fetch(requestInfo)

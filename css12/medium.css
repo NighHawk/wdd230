@@ -1,0 +1,64 @@
+@media only screen and (min-width: 32.5em){
+
+    .weatherAlert {
+        display: flex;
+    }
+    .closed {
+        display: none;
+    }
+
+    .socialHeader {
+        display: none;
+    }
+    .socialHeaderLrg {
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .hamburgerBtn{
+        margin-left: 5px;
+    }
+
+    .action {
+        top: 50%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+
+      padding: 10px;}
+
+/*css for services section -----------------------------------------------------------*/
+/*css for homepage---------------------------------------------------------------------*/
+body > div.banner-box > img.bannerS {
+        display: none;
+    }
+
+    body > div.banner-box > img.bannerM{
+        position: absolute;
+        display: block;
+        margin:0 auto;
+        top: 50%;
+       left: 50%;
+       transform: translate(-50%, -40%);
+       }    
+      .banner-box {
+        position: relative;
+        width: 90%;
+        height: 170px;
+        margin: 20px auto; 
+      }
+      
+      
+
+/*css for reservations-----------------------------------------------------------------------*/
+.resButtonLi {
+    justify-content: left;
+  }      
+.reservations form {
+    max-width: 500px;
+}
+
+/*css for missionary page -------------------------------------------------------------------------------------*/
+.contactForm form {
+   width: 80%;
+}
+}

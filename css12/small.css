@@ -1,0 +1,574 @@
+
+/* for hamburger button*/
+button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+
+}
+
+.hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+.pressed span:nth-child(1) {
+    display:none;
+}
+.pressed span:nth-child(2) {
+    display:flex;
+}
+
+body > header > section > button {
+    margin-left: auto;
+}
+#largeView {display: none;}
+.smallView ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px
+}
+
+.smallView ul li a{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    background-color: coral;
+    color: black;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+body > header > nav.smallView > ul > li:nth-child(1) > a{
+    background-color: coral;
+    color: white;
+}
+
+.smallView ul li a:hover {
+    /*background-color: rgb(255, 255, 255, .9);*/
+    /*background-color: rgb(0,0,0, .1);*/
+    background-color: teal;
+    color: white;
+}
+
+body > header > nav > ul > li:nth-child(1) > a:hover {
+    background-color: teal;
+}
+.navigation {
+    display: none;
+}
+
+.responsive{
+    display:block;}
+
+/*end hamburger button*/
+
+
+
+body {background-color: #16324f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    }
+
+header {color: black;
+        background-color: coral;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 5px 0;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        }
+    
+.socialHeader {
+    display: flex;
+    justify-content: center;
+}
+picture {display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;}
+
+section {display: flex;
+    align-items: center;}
+
+h1 {display: flex;
+    font-size: 2rem;
+    align-items: center; 
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: IM Fell Great Primer, cursive, sans-serif;
+    }
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black;
+    padding-top: 40px;
+}
+
+ul {display: flex;
+    font-family: Arial, Helvetica, sans-serif;}
+
+li {display: flex; 
+    padding: 0 1rem 0; 
+    }       
+/*for homepage------------------------------------------------------------------------------*/
+main {
+    display: block;
+    }
+
+    /*css for banner box ------*/
+    body > div.banner-box > img.bannerM, 
+    body > div.banner-box > img.bannerL {
+        display: none;
+    }
+
+      .banner-box {
+        position: relative;
+        width: 350px;
+        height: 175px;
+        margin: 20px auto; 
+      }
+
+      .banner-box img .bannerS {
+       position: absolute;
+       display: block;
+       margin:0 auto;
+       top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+    
+      .action {
+        position: absolute;
+        background-color: rgba(240, 240, 240, 0.6);
+        top: 50%;
+      left: 50%;
+      transform: translate(-50%, -43%);
+      margin:0 auto;
+      padding: 10px;
+      
+      }
+      .action h2 {
+        font-size: 24px;
+    line-height: 15px;
+    text-shadow: 1px 1px #FFFFFF;
+    font-family: IM Fell Great Primer, cursive, sans-serif;        
+      }
+    
+    .action button {
+   
+        width: 10em;
+        background-color: teal;
+        color: white;
+        font-size: 24px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 5px outset lightgray;
+    }
+
+    /*main page*/
+
+    h3 {
+    font-size: 35px;
+    line-height: 15px;
+    text-shadow: 1px 1px #FFFFFF;
+    font-family: IM Fell Great Primer, cursive, sans-serif;
+}
+
+
+main h2 {color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif}
+
+body > main > div.section1pict,
+.weather, 
+.forecast {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background-color: coral;
+    padding-top: 20px; 
+}
+
+.section1 p {background-color: #16324f;
+text-indent: 15px;}
+.section1pict {
+    text-indent: 15px;
+}
+
+.section1pict img, 
+.section2pict img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+    
+}
+
+main p {background-color:  coral;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        padding: 10px 30px;
+        text-align: left;}
+        
+        
+        
+/* for weather */     
+
+.weather {
+    text-align: center;  
+}        
+body > main > div.weather > div{
+    justify-content: center;
+}
+#weatherIcon {
+    width: 100px;
+    
+}
+
+body > main > div.weather > h3:nth-child(3), body > main > div.weather > h3:nth-child(4) {
+    color: white;
+    text-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather p,
+.forecast p {
+    text-align: center;
+}
+
+
+/*for footer---------------*/
+footer {background-color: coral;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    }
+footer div {
+    display: flex;
+    align-items: center;
+}
+.icons {
+    flex-direction: column;
+}
+.map {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 20px;
+}
+.phone {
+    padding-top: 20px;
+    width: 20px;
+}
+.mail {
+    padding-top: 0px;
+    width: 20px;
+}
+.map, .phone, .mail {
+    padding-right: 10px;
+}
+.icons {
+    display: none;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align: center;
+       }
+
+.contact {
+    margin: 10px auto;
+    }
+body > footer > div:nth-child(2)
+    {justify-content: center;}
+    body > footer > div:nth-child(1) {
+        justify-content: center;
+    }
+    
+    .map {
+    width: 50px;
+    padding: 5px;
+
+}
+
+
+/*css for reservations page-------------------------------------------------------------------------------------------*/
+
+.reservation > header > nav.smallView > ul > li:nth-child(1) > a {
+    background-color: coral;
+    color: black;
+}
+
+.reservation > header > nav.smallView > ul > li:nth-child(3) > a{
+    background-color: coral;
+    color: white;
+}
+
+.reservation > header > nav.smallView > ul > li > a:hover {
+    background-color: coral;
+    color: white;
+}
+.reservation > header > nav.smallView > ul > li:nth-child(3) > a:hover {
+    background-color: coral;
+    color: white;
+}
+    
+.reservations {display: block;}
+    form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 90%;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        margin: 15px auto;
+      }
+      
+      .res-ul {
+        display: block;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      form li + li {
+        margin-top: 1em;
+      }
+      
+      label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 120px;
+        padding-right: 10px;
+        text-align: right;
+        font-size: 20px;
+        color: white;
+      }
+      
+      input, 
+      textarea {
+        /* To make sure that all text fields have the same font settings
+           By default, textareas have a monospace font */
+        font: .75em sans-serif;
+      
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+      
+        /* Match form field borders */
+        border: 1px solid #999;
+      }
+      
+      input:focus, 
+      textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+      }
+      
+      textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
+      
+        /* Provide space to type some text */
+        height: 5em;
+      }
+      
+      .resButtonLi {
+        justify-content: center;
+      }
+      .resButton {
+        color: white;
+        background-color: coral;
+        padding: 10px;
+        border-radius: 5px;
+        border: 5px outset lightgray;
+        font-size: 24px;
+
+      }
+      
+    
+
+/*css for temple page--------------------------------------------------------------------------------------------------------------*/
+
+.like {
+    color: white;
+}
+/*for nav wayfinding*/
+.temple .weatherAlert {
+    display: none;}
+
+.temple > header > nav.smallView > ul > li:nth-child(1) > a {
+    background-color: coral;
+    color: black;
+}
+.temple > header > nav.smallView > ul > li:nth-child(2) > a{
+    background-color: coral;
+    color: white;
+}
+
+.temple > header > nav.smallView > ul > li > a:hover {
+    background-color: coral;
+    color: white;
+}
+
+/*for temple cards*/
+
+.cards {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.temple .cards section {
+    display: block;
+    margin: 10px auto;
+    background-color: coral;
+    width: 90%;
+}
+
+#templeDir > div > section > img{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
+#templeDir > div > section > span > button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+        background-color: coral;
+        padding: 10px;
+        border-radius: 5px;
+        border: 5px outset lightgray;
+        font-size: 24px;
+
+
+}
+
+.temple .cards section h2 {
+    text-align: center;
+    padding-top: 0;
+}
+.temple .cards section p {
+    text-align: left;
+}
+
+.temple .cards ul {
+    display: block;
+}
+
+.cards ul li,
+.cards ul {
+    color: white;
+    font-size: 20px;
+}
+/*css for services-------------------------------------------------------------------------------------------------------------------------*/
+.services > header > nav.smallView > ul > li:nth-child(1) > a {
+    background-color: coral;
+    color: black;
+}
+
+.services > header > nav.smallView > ul > li:nth-child(4) > a{
+    background-color: coral;
+    color: white;
+}
+.services > header > nav.smallView > ul > li:nth-child(4) > a:hover,
+.services > header > nav.smallView > ul > li:nth-child(1) > a:hover  {
+    background-color: coral;
+    color: white;
+}
+
+body > main > div.amenities-content > a{
+    text-decoration: none;
+}
+
+.amenities-banner {
+    display: none;
+}
+.reception, .missionary, .family-history, .free-amenities {
+    display: block;
+    background-color: coral;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.changing-rooms img, .reception img, .missionary img, .sitting-area img, .reception-hall img, .family-history img{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;}
+
+.closing-img {
+    display: none;
+}
+
+.amenities-content a section img,
+.family-history img {
+    display: block;
+    margin: 0 auto;
+}
+
+.amenities p {
+    text-indent: 15px;
+}
+.last-section p{
+    text-indent: 0px;
+}
+
+/*css for reception page-----------------and missionary suite page------------------------------------------------------------------------------*/
+
+.receptionGrid, .missionaryGrid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+}
+
+.receptionGrid section, .missionaryGrid section {
+    display: block;
+    background-color: coral;
+    margin: 20px;
+}
+.receptionGrid section img,
+.missionaryGrid section img
+ {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.receptionPage > header > nav.smallView > ul > li:nth-child(1) > a,
+.missionarySuites > header > nav.smallView > ul > li:nth-child(1) > a {
+    background-color: #c6b36a;
+    color: black;
+}
+
+.receptionPage > header > nav.smallView > ul > li:nth-child(1) > a:hover,
+.missionarySuites > header > nav.smallView > ul > li:nth-child(1) > a:hover  {
+    background-color: coral;
+    color: white;
+}
+
+.receptionGrid p {
+    text-indent: 15px;
+}
+/*css for missionary suites page-------------------------------------------------------------------------------------------------------------*/
+
+.missionaryGrid p {
+    text-indent: 15px;
+}

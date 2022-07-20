@@ -1,0 +1,269 @@
+@media only screen and (min-width: 64rem) {
+    /* homepage-------------------------------------------------------------------------------------- */
+    .weatherAlert {
+      display: flex;
+      max-width: 1580px;
+      margin: 0 auto;
+    }
+    .closed {
+      display: none;
+    }
+    header {
+      max-width: 1600px;
+    }
+    .hamburgerBtn {
+      display: none;
+    }
+    #largeView {
+      display: flex;
+      font-size: 1.2em;
+      margin-right: 20px;
+      margin-left: auto;
+    }
+    #largeView a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+    #largeView a:link,
+    #largeView a:visited {
+      color: black;
+    }
+    #largeView a:hover {
+      color: white;
+      background-color: teal;
+    }
+  
+    .active {
+      background-color: coral;
+    }
+    #largeView > ul > li:nth-child(1) > a {
+      color: white;
+    }
+  
+    .socialHeaderLrg {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    
+  /*css for banner--------*/
+  body > div.banner-box > img.bannerM {
+      display: none;
+  }
+  
+  body > div.banner-box > img.bannerL{
+      position: absolute;
+      display: block;
+      margin:0 auto;
+      top: 50%;
+     left: 50%;
+     transform: translate(-50%, -40%);
+     }    
+    .banner-box {
+      position: relative;
+      width: 90%;
+      height: 175px;
+      margin: 20px auto; 
+  }
+    /*css for grid -----------*/
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      font-size: 2rem;
+      display: grid;
+      grid-template-columns: 700px 550px;
+      justify-content: space-evenly;
+      grid-gap: 50px;
+    }
+  
+    body > main > div.section1pict, .section1, .weather, .forecast {
+      width: 100%;}
+  
+    .section1 {
+      grid-column: 1/3;
+    }
+    .section1pict {
+      grid-column: 1/2;
+      grid-row: 2/4;
+    }
+    
+    footer {
+      display: none;
+    }
+  
+    .footerLrg {
+      display: block;
+      max-width: 1600px;
+      background-color: coral;
+      margin-top: 20px;
+    }
+    #footerFlx {
+      display: flex;
+      justify-content: space-between;
+    }
+    #footerFlx > div.footerAddress > a {
+      padding-left: 10px;
+    }
+  
+    
+    /*css for temple page---------------------------------------------------------------------------------*/
+    .temple header .heading #largeView ul li:nth-child(1) a {
+      color: black;
+    }
+    .temple header .heading #largeView ul li:nth-child(2) a {
+      color: white;
+    }
+  
+    #templeDir {
+      display: block;
+    }
+   
+  
+    /*css for reservation--------------------------------------------------------------------------------------*/
+    .reservation header .heading #largeView ul li:nth-child(1) a {
+      color: black;
+    }
+    .reservation header .heading #largeView ul li:nth-child(1) a:hover {
+      color: white;
+    }
+  
+    .reservation header .heading #largeView ul li:nth-child(3) a {
+      background-color: coral;
+      color: white;
+    }
+    .reservation header .heading #largeView ul li:nth-child(3) a:hover {
+      background-color: teal;
+    }
+  
+    #room_type {
+      font-size: 20px;
+    }
+    /*css for services--------------------------------------------------------------------------------*/
+  
+    /*for havigation*/
+    .services header .heading #largeView ul li:nth-child(1) a {
+      color: black;
+    }
+    .services header .heading #largeView ul li:nth-child(1) a:hover {
+      color: white;
+    }
+  
+    .services header .heading #largeView ul li:nth-child(4) a {
+      background-color: coral;
+      color: white;
+    }
+    .services header .heading #largeView ul li:nth-child(4) a:hover {
+      background-color: teal;
+    }
+    /*for the rest of the page*/
+  
+    .amenities {
+      max-width: 1600px;
+      margin: 0 auto;
+      font-size: 2rem;
+      display: block;
+    }
+    .servicesTitle {
+      display: none;
+    }
+    .amenities-banner {
+      display: block;
+      position: relative;
+      width: 800px;
+      height: 533px;
+      margin: 40px auto;
+    }
+    .amenities-banner h2 {
+      position: absolute;
+      text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black,
+        0px 0px 15px black, 0px 0px 15px black;
+      top: 20px;
+      padding: 0;
+      left: 60px;
+      z-index: 1;
+      font-size: 50px;
+    }
+    .amenities-banner img {
+      position: absolute;
+    }
+    .amenities-banner p {
+      width: 250px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      margin: 0;
+    }
+  
+    .amenities-content {
+      position: relative;
+      display: grid;
+      justify-content: space-evenly;
+      grid-template-columns: 390px 390px 390px;
+      grid-gap: 50px;
+      margin: 20px auto 75px;
+    }
+  
+    .reception,
+    .missionary,
+    .family-history,
+    .free-amenities {
+      width: 100%;
+    }
+    .family-history {
+      margin-top: 25px;
+    }
+    .family-history h2 {
+      padding-top: 10px;
+    }
+  
+    .closing-img {
+      position: relative;
+      -webkit-box-align: center;
+      -webkit-box-pack: center;
+      display: -webkit-box;
+    }
+  
+    .last-section {
+      position: relative;
+    }
+    .free-amenities {
+      width: 1600px;
+    }
+    .free-amenities p {
+      column-count: 3;
+    }
+  
+    /*css for receptions and missionary suites-----------------------------------------------------------------*/
+  .receptionPage main,
+  .missionarySuites main {
+      display: block;
+  }
+  .receptionPage header .heading #largeView ul li:nth-child(1) a,
+  .missionarySuites header .heading #largeView ul li:nth-child(1) a {
+      color: black;
+    }
+    .receptionPage header .heading #largeView ul li:nth-child(1) a:hover,
+    .missionarySuites header .heading #largeView ul li:nth-child(1) a:hover {
+      color: white;
+    }
+  /*for missionary page-----------------------------------------------------------------*/
+  body > main > div > section.contactForm > form > ul > li input,
+  body > main > div > section.contactForm > form > ul > li textarea {
+      max-width: 170px;
+  }
+  
+  body > main > div > section.contactForm > form {
+      padding-top: 1em;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      width: 75%;
+      
+  }
+  
+  
+  
+  }
+  

@@ -16,9 +16,9 @@ const day2 = document.querySelector("#day2")
 const day3 = document.querySelector("#day3")
 
 
-//const url = "https://api.openweathermap.org/data/2.5/weather?id=4517586&appid=00ea60318b73a6283c6a3e0101a40d75&units=imperial"
+//const url = "https://api.openweathermap.org/data/2.5/weather?id=4517586&appid=1d0caf004c9fae7fc3d765b4417b1916&units=imperial"
 
-const url = "https://api.openweathermap.org/data/2.5/onecall?lat=39.415352&lon=-81.454842&exclude=hourly,minutely&appid=00ea60318b73a6283c6a3e0101a40d75&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/onecall?lat=39.415352&lon=-81.454842&exclude=hourly,minutely&appid=1d0caf004c9fae7fc3d765b4417b1916&units=imperial"
 
 async function apiFetch() {
     try {
