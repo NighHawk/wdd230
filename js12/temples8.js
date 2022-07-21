@@ -1,4 +1,4 @@
-const requestInfo = "json/temples8.json";
+const requestInfo = "json/temples7.json";
 const cards = document.querySelector(".cards");
 
 fetch(requestInfo)
@@ -7,9 +7,9 @@ fetch(requestInfo)
   })
   .then(function (jsonObject) {
     //console.table(jsonObject);
-    const temples = jsonObject['temples'];
-    console.table(temples);
-    temples.forEach(displayTemples);
+    const temples = jsonObject['temple'];
+    console.table(temple);
+    temple.forEach(displayTemples);
     pullLocal();
     pullLocal1();
     pullLocal2();
@@ -134,7 +134,7 @@ let counter = 0;
 let names = ["first", "second", "third", "forth", "fifth"];
 console.log(names);
 
-function displayTemples(temple) {
+function displayTemple(temple) {
   console.log(names);
   console.log(counter);
   let card = document.createElement("section");
@@ -183,16 +183,12 @@ for (const key in temple) {
   ul1.textContent = `Address: `;
   ul2.textContent = `Phone: `;
     li1.textContent = `${temple.phone}`;
-  ul3.textContent = `Email: `;
-    li2.textContent = `${temple.email}`;
+  ul3.textContent = `Ordinance: `;
+    li2.textContent = `${temple.ordinance}`;
   ul4.textContent = `Services: `;
-  ul5.textContent = `History: `;
-    li3.textContent = `${temple.history}`;
-  ul6.textContent = `Ordinance Scheduel: `;
-    li4.textContent = `${temple.ordSched}`;
-  ul7.textContent = `Session Schedule: `;
-    li5.textContent = `${temple.sesSched}`;
-  ul8.textContent = `Closing Dates: `;
+  ul5.textContent = `Website: `;
+    li3.textContent = `${temple.website}`;
+  
 
   img.setAttribute("src", temple.imageName);
   img.setAttribute("alt", `Picture of ${temple.name}`);
@@ -202,11 +198,11 @@ for (const key in temple) {
 //must first make arrays into variables
 let address = temple.address;
 let services = temple.services;
-let closSched = temple.closSched;
+let ordinance = temple.ordinance;
 //call make list function to add list items from array to each ul
 makeList(address,ul1)
 makeList(services,ul4)
-makeList(closSched,ul8)
+makeList(or,ul8)
 
 //the make list function:
   function makeList(array, parent){
