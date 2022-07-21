@@ -7,9 +7,9 @@ fetch(requestInfo)
   })
   .then(function (jsonObject) {
     //console.table(jsonObject);
-    const temples = jsonObject['temple'];
-    console.table(temple);
-    temple.forEach(displayTemples);
+    const temples = jsonObject['temples'];
+    console.table(temples);
+    temples.forEach(displayTemples);
     pullLocal();
     pullLocal1();
     pullLocal2();
@@ -134,7 +134,7 @@ let counter = 0;
 let names = ["first", "second", "third", "forth", "fifth"];
 console.log(names);
 
-function displayTemple(temple) {
+function displayTemples(temple) {
   console.log(names);
   console.log(counter);
   let card = document.createElement("section");
@@ -198,7 +198,6 @@ for (const key in temple) {
 //must first make arrays into variables
 let address = temple.address;
 let services = temple.services;
-let ordinance = temple.ordinance;
 //call make list function to add list items from array to each ul
 makeList(address,ul1)
 makeList(services,ul4)
